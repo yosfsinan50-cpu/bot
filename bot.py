@@ -12,8 +12,8 @@ OWNER = "@YUSEEF_SURCHI"
 ADMIN = "@Arthur3345"
 BOT_TOKEN = "8927058505:AAG_hzN29-Cw5DyROpUaopDvugnGQN6BYek"
 
-API_ID = 34584240  # لڤێرە API_ID خۆ بنڤیسە
-API_HASH = "eba4f8333cba5f9697a1d20779d4d6e9"  # لڤێرە API_HASH خۆ بنڤیسە
+API_ID = 34584240
+API_HASH = "eba4f8333cba5f9697a1d20779d4d6e9"
 
 # Home Keyboard Menu
 def get_main_menu():
@@ -168,7 +168,7 @@ def main():
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button_handler))
-    application.add_handler(filters.PHOTO | filters.VIDEO | filters.ANIMATION, handle_media)
+    application.add_handler(MessageHandler(filters.PHOTO | filters.VIDEO | filters.ANIMATION, handle_media))
 
     logger.info("Bot is running with 15s support, Animation Text, and post-media results!")
     application.run_polling()
