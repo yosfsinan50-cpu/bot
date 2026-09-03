@@ -175,3 +175,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    https://api.telegram.org/bot8927058505:AAEBZbcJ1Y-6S-_iwUfeBnF2ysHIgTA-UDM/deleteWebhook?drop_pending_updates=true
+
