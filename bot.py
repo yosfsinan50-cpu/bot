@@ -12,9 +12,8 @@ OWNER = "@YUSEEF_SURCHI"
 ADMIN = "@Arthur3345"
 BOT_TOKEN = "8927058505:AAG_hzN29-Cw5DyROpUaopDvugnGQN6BYek"
 
-# Zêdekirنا API_ID و API_HASH (لڤێرە ژمارا خۆ و هەشێ خۆ دانە بناغەی)
-API_ID = 34584240  # لڤێرە API_ID خۆ بنڤیسە (بەرێ خۆ بدەێ ژمارەیە)
-API_HASH = "eba4f8333cba5f9697a1d20779d4d6e9e"  # لڤێرە API_HASH خۆ د ناڤ کورتەپەیدانێ دا بنڤیسە
+API_ID = 12345678  # لڤێرە API_ID خۆ بنڤیسە
+API_HASH = "your_api_hash_here"  # لڤێرە API_HASH خۆ بنڤیسە
 
 # Home Keyboard Menu
 def get_main_menu():
@@ -36,7 +35,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "• **ڤیدیۆ تا 15 چرکە ب بێ بەرانبەر (Free)**\n"
         "• **مۆدێن: ب تێکست، بێ تێکست و Animation Text**\n"
         "• **شاندنا ڕسمی/ڤیدیۆیێن نوو پاشی ستیکەری**\n\n"
-        f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}"
+        f"👑 {OWNER} | 🛡️ {ADMIN}"
     )
     
     if update.message:
@@ -62,7 +61,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.edit_text(
             "⚙️ **مۆدێ چێکرنا ستیکەری هەڵبژێرە (تا 15 چرکە):**\n\n"
             "هەمی تشت ب بێ بەرانبەرە. چ تێکست، بێ تێکست یان ئەنیمیەشن ڤەبژێرە.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+            f"👑 {OWNER} | 🛡️ {ADMIN}",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
@@ -73,7 +72,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.edit_text(
             "✍️ **مۆدا ب تێکست هاتە هەلبژارتن!**\n\n"
             "نوکە وێنە یان ڤیدیۆیا خۆ (تا 15 چرکە) بنێرە و تێکستێ خۆ ل سەر بنڤیسە.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+            f"👑 {OWNER} | 🛡️ {ADMIN}",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
@@ -84,7 +83,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.edit_text(
             "🖼️ **مۆدا بێ تێکست هاتە هەلبژارتن!**\n\n"
             "نوکە وێنە یان ڤیدیۆیا خۆ (تا 15 چرکە) بێ تێکست بنێرە.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+            f"👑 {OWNER} | 🛡️ {ADMIN}",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
@@ -95,7 +94,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.edit_text(
             "✨ **مۆدا تێکستێ جووڵاو (Animation Text) هاتە ڤەکرن!**\n\n"
             "ڤیدیۆ یان GIF (تا 15 چرکە) بنێرە دا تێکستەکێ جووڵاو لسەر بهێتە چێکرن.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+            f"👑 {OWNER} | 🛡️ {ADMIN}",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
@@ -110,7 +109,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.edit_text(
             "✨ **سیستەمێ 280 فلتەران:**\n\n"
             "هەلبژێرە و ب سەر مێدیایا خۆ یا ستیکەری دا زێدە بکە ب کیفیتەکا زۆر بلند.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+            f"👑 {OWNER} | 🛡️ {ADMIN}",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
@@ -120,7 +119,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup = InlineKeyboardMarkup(keyboard)
         await query.message.edit_text(
             "⚙️ **فلتەرێن (1 هەتا 140) چالاکن!** مێدیایا خۆ بنێرە.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}", 
+            f"👑 {OWNER} | 🛡️ {ADMIN}", 
             reply_markup=reply_markup, 
             parse_mode="Markdown"
         )
@@ -130,7 +129,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup = InlineKeyboardMarkup(keyboard)
         await query.message.edit_text(
             "⚙️ **فلتەرێن (141 هەتا 280) چالاکن!** مێدیایا خۆ بنێرە.\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}", 
+            f"👑 {OWNER} | 🛡️ {ADMIN}", 
             reply_markup=reply_markup, 
             parse_mode="Markdown"
         )
@@ -143,7 +142,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "• ڤیدیۆ تا 15 چرکە ب بێ بەرانبەر\n"
             "• Animation Text و 280 فلتەر\n"
             "• شاندنا ڕسمی پشتی ستیکەری ب شێوەیەکێ خۆکار\n\n"
-            f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+            f"👑 {OWNER} | 🛡️ {ADMIN}",
             reply_markup=reply_markup,
             parse_mode="Markdown"
         )
@@ -151,7 +150,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data == "back_home":
         await start(update, context)
 
-# Media Processing Handler (Up to 15 seconds + Auto sending result photo/sticker after)
+# Media Processing Handler
 async def handle_media(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message = update.message
     user_name = message.from_user.first_name
@@ -160,7 +159,7 @@ async def handle_media(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"⏳ **بڕێز {user_name}**...\n"
         "مێدیایا تە (تا 15 چرکە) هاتە وەرگرتن. پڕۆسەکرنا ستیکەری و تێکستێ جووڵاو (Animation Text) دەستپێکر!\n"
         "🔹 *پشتی هندێ دێ ڕسما تە یا تێراپیساوی بێ بەرانبەر بۆ تە هێتە هناردن.*\n\n"
-        f"👑 {@YUSEEF_SURCHI} | 🛡️ {@Arthur3345}",
+        f"👑 {OWNER} | 🛡️ {ADMIN}",
         parse_mode="Markdown"
     )
 
