@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 # زانیاریێن بۆتی، یوزەر، API_ID و API_HASH
 OWNER = "@YUSEEF_SURCHI"
 ADMIN = "@Arthur3345"
-BOT_TOKEN = "8927058505:AAG_hzN29-Cw5DyROpUaopDvugnGQN6BYek"
+BOT_TOKEN = "8927058505:AAEBZbcJ1Y-6S-_iwUfeBnF2ysHIgTA-UDM"
 
 API_ID = 34584240
 API_HASH = "eba4f8333cba5f9697a1d20779d4d6e9"
