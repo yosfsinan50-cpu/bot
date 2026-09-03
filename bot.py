@@ -7,10 +7,14 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 logging.basicConfig(format="%(asctime)s - OWNER: @YUSEEF_SURCHI - ADMIN: @Arthur3345 - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# یوزەرێن خودان و ئادمێن ب بێ خەلەتی
+# زانیاریێن بۆتی، یوزەر، API_ID و API_HASH
 OWNER = "@YUSEEF_SURCHI"
 ADMIN = "@Arthur3345"
 BOT_TOKEN = "8927058505:AAG_hzN29-Cw5DyROpUaopDvugnGQN6BYek"
+
+# Zêdekirنا API_ID و API_HASH (لڤێرە ژمارا خۆ و هەشێ خۆ دانە بناغەی)
+API_ID = 34584240  # لڤێرە API_ID خۆ بنڤیسە (بەرێ خۆ بدەێ ژمارەیە)
+API_HASH = "eba4f8333cba5f9697a1d20779d4d6e9e"  # لڤێرە API_HASH خۆ د ناڤ کورتەپەیدانێ دا بنڤیسە
 
 # Home Keyboard Menu
 def get_main_menu():
