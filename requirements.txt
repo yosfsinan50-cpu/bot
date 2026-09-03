@@ -1,5 +1,1 @@
-python-telegram-bot==21.1.1
-Pillow
-moviepy
-opencv-python
-numpy
+python-telegram-bot
