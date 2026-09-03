@@ -12,8 +12,8 @@ OWNER = "@YUSEEF_SURCHI"
 ADMIN = "@Arthur3345"
 BOT_TOKEN = "8927058505:AAG_hzN29-Cw5DyROpUaopDvugnGQN6BYek"
 
-API_ID = 12345678  # لڤێرە API_ID خۆ بنڤیسە
-API_HASH = "your_api_hash_here"  # لڤێرە API_HASH خۆ بنڤیسە
+API_ID = 34584240  # لڤێرە API_ID خۆ بنڤیسە
+API_HASH = "eba4f8333cba5f9697a1d20779d4d6e9"  # لڤێرە API_HASH خۆ بنڤیسە
 
 # Home Keyboard Menu
 def get_main_menu():
